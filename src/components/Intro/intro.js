@@ -13,7 +13,7 @@ function intro() {
           I'm <span className="introName"> Malvin </span> <br /> Website Designer
         </span>
         <p className="introParag"> I am a skilled web designer with experience in creating visually appealling and user friendly websites</p>
-        <Link><button className="btn"><img src={btnImg} alt="hireme" />Hire Me</button></Link>
+        <Link><button className="btn"><img src={btnImg} alt="hireme" className="btnImg" /> Hire Me </button></Link>
       </div>
       <img src={bg} alt="profile" className="bg" />
     </section>

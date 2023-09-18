@@ -7,7 +7,7 @@
 }
 .bg{
     position: absolute;
-    top: 15rem;
+    top: 11rem;
     right: 0;
     z-index: -1;
     object-fit: cover;
@@ -15,9 +15,9 @@
 }
 .introContent{
     height: 100vh;
-    width: 100vh;
-    padding: 2rem;
-    font-size: 3rem;
+    width: 150vh;
+    padding: 8rem;
+    font-size: 4rem;
     font-weight: 600;
     display: flex;
     flex-direction: column;
@@ -30,14 +30,20 @@
 .introName{
     color: yellow;
 }
-.intoPara{
-    font-size: medium;
-    font-weight: 400;
+.introParag{
+    font-size:medium;
+    font-weight: 500;
 }
 .btn{
     background: white;
-    margin: 1rem 0;
-    padding: 0.8 rem 0.8rem;
+    margin: -1rem ;
+    padding: 0.5rem 1.5rem;
     border-radius: 3rem;
+    border: none;
+}
+.btnImg{
+    object-fit: cover;
+    margin: 0 0.25rem;
+    height: 1rem;
 
 }
