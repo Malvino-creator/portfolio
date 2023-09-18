@@ -1,5 +1,15 @@
 
+.navbar{
+    height: 5rem;
+    width: 100vw;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
 .logo{
-    width: 3o0px;
-    height: 15opx;
+    width: 290px;
+    height: 220px;
 }
