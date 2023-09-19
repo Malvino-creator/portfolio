@@ -7,9 +7,8 @@ import AppDesign from "../../assets/app-design.png";
 function skill() {
   return (
     <section id="skills">
-      <span className="skillTitle"> What I do</span>
+      <span className="skillTitle"> About Me </span>
       <span className="skillDescription">
-        {" "}
         I am a skilled and passionate web sesigner with experience in creating
         visually appealling and user friendly websites.
         <br />
@@ -23,22 +22,38 @@ function skill() {
         <div className="skillBar">
           <img src={UIDesign} alt="uidesign"></img>
           <div className="skillBarText">
-            <h2></h2>
-            <p></p>
+            <h2>UI/UX Design</h2>
+            <p>
+              Ensure the product's visual appeal and interface elements is
+              achieved, <br />
+              while laying focus on the overall user experience ensuring that
+              the product is user-friendly and meets expectations.
+            </p>
           </div>
         </div>
         <div className="skillBar">
           <img src={WebDesign} alt="webdesign"></img>
           <div className="skillBarText">
-            <h2></h2>
-            <p></p>
+            <h2> Website Development</h2>
+            <p>
+              I play a crucial role in shaping the digital experiences users
+              have
+              <br />
+              when accessing information, services, and applications on the
+              internet.
+            </p>
           </div>
         </div>
         <div className="skillBar">
           <img src={AppDesign} alt="appdesign"></img>
           <div className="skillBarText">
-            <h2></h2>
-            <p></p>
+            <h2>App Development</h2>
+            <p>
+              Ensure realization in meeting the demands of modern consumers and
+              businesses
+              <br />
+              for efficient and user-friendly software solutions.
+            </p>
           </div>
         </div>
       </div>
