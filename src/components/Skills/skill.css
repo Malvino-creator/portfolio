@@ -8,4 +8,52 @@
     align-items: center;
     text-align: center;
     justify-content: center;
+    margin: 0 auto;
+}
+.skillTitle{
+    font-size: 3rem;
+    font-weight: 700;
+    padding-top: 3rem;
+    margin-bottom: 2rem;
+    color: yellow;
+}
+.skillDescription{
+    font-weight: 500;
+    max-width: 60rem;
+    padding: 0 3rem;
+    font-size: 1.4rem;
+    word-spacing: 0.2rem;
+
+}
+.skillBars{
+    margin: 1.3rem;
+    max-width: 80%;
+    text-align: left;
+    width: 100vw;
+    border-radius: 0.3rem;
+}
+.skillBar{
+display: flex;
+margin: 1.4rem;
+padding: 1.5rem, 2rem;
+border-radius: 0.4rem;
+background: rgb(50,50,50);
+padding-top: 1rem;
+padding-bottom: 2rem;
+}
+.skillBarImg{
+    height: 5rem;
+    width: 4rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    object-fit: cover;
+    padding-top: 1rem;
+}
+.skillBar h2{
+    color: yellow;
+    padding-bottom: 0.6rem;
+}
+.skillBarText>p{
+    font-weight: 300;
+    font-size: 1.2rem;
 }
