@@ -16,7 +16,9 @@ function navbar() {
       </div>
       <button className="desktopMenuBtn">
         <img src={Contact} alt="contact" className="desktopMenuImg" />
-        Contact Me
+        Contact Me<br/>
+        Leave a Beep!<br/>
+        Message
       </button>
     </nav>
   );
