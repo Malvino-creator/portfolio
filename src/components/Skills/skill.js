@@ -9,11 +9,12 @@ function skill() {
     <section id="skills">
       <span className="skillTitle"> About Me </span>
       <span className="skillDescription">
-        I am a skilled and passionate web designer with experience in<br/>
+        I am a skilled and passionate web designer with experience in
+        <br />
         creating visually appealling and user friendly websites.
-        <br/>I have a good understanding of design and posses a keen eye<br/>
-         for detail.
-        I am also proficient in HTML, CSS, Ruby and JavaScript
+        <br />I have a good understanding of design and posses a keen eye
+        <br />
+        for detail. I am also proficient in HTML, CSS, Ruby and JavaScript
         <br />
         as well as Frontend and Backend frameworks such as React and Ruby on
         Rails.
