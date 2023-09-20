@@ -1,5 +1,6 @@
 import React from 'react'
 import "./works.css"
+import portfolio1 from "../../assets/portfolio1.png"
 
 function work() {
   return (
