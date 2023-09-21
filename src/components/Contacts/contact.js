@@ -27,6 +27,11 @@ function contact() {
             <span className="contactPageTitle">
             Please fill out the form below to discuss work prospects
             </span>
+            <form className="contactForm">
+                <input type="text" placeholder="Your Name" className="name"/>
+                <input type="email" placeholder="Your Email" className="email"/>
+                <textarea className="message" name="message" rows={5} placeholder="Your Message"></textarea>
+            </form>
       </div>
     </section>
   );
