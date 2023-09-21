@@ -12,12 +12,15 @@
     margin: 1rem 0;
     font-size: 3rem;
     padding-left: 30rem;
+    padding-top: 3rem;
 }
-.workDescription{
-    font-weight: 300;
-    font-size: 1rem;
+.workParag{
+    font-size: large;
+    padding: 0rem 1rem;
+    text-align: center;
     justify-content: center;
-    padding-left: 39vh;
+    align-items: center;
+    padding-top: 1rem;
 }
 .workImages{
     display: flex;
@@ -25,11 +28,29 @@
     max-width: 85rem;
     width: 100vw;
     justify-content: center;
-   
+   text-wrap: wrap;
+   padding-top: 2rem;
 }
 .workImg{
     object-fit: cover;
     margin: 0.8rem;
     height: 20rem;
-    flex-wrap: wrap;
+}
+.worksBtn{
+    padding: 1rem, 3rem;
+    border: none;
+    margin: 3rem 35rem;
+    background-color: yellow;
+    font-size: 1rem;
+    border-radius: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:585px) {
+    .workImg{
+        height: 45vw;
+    }
 }

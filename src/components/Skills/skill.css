@@ -18,11 +18,11 @@
     color: yellow;
 }
 .skillDescription{
-    font-weight: 500;
+    font-weight: 400;
     max-width: 60rem;
     padding: 0 3rem;
-    font-size: 1.4rem;
-    word-spacing: 0.2rem;
+    font-size: 1.3rem;
+    word-spacing: 0.1rem;
 
 }
 .skillBars{
