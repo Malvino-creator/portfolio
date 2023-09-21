@@ -10,9 +10,9 @@ function navbar() {
       <img src={logo} alt="logo" className="logo" />
       <div className="desktopMenu">
         <Link className="desktopMenuListItem">Home</Link>
-        <Link className="desktopMenuListItem">Clients</Link>
         <Link className="desktopMenuListItem">About</Link>
         <Link className="desktopMenuListItem">Portfolio</Link>
+        <Link className="desktopMenuListItem">Clients</Link>
       </div>
       <button className="desktopMenuBtn">
         <img src={Contact} alt="contact" className="desktopMenuImg" />
