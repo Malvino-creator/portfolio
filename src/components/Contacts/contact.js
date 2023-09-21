@@ -11,9 +11,8 @@ function contact() {
       <div id="clients">
         <h1 className="contactPageTitle">My Clients</h1>
         <p className="clientDescription">
-          {" "}
           I have had the opportunity to work with a diverse group of companies.
-          Some of the notable startups I have worked with includes:
+          Some of the notable startups I have worked with includes
         </p>
         <div className="clientImages">
           <img src={Walmart} alt="clientImage" className="clientImage" />
@@ -22,7 +21,13 @@ function contact() {
           <img src={Facebook} alt="clientImage" className="clientImage" />
         </div>
       </div>
-      <div id="contact"></div>
+      <div id="contact">
+        <h1 className="contactPageTitle">
+            Contact Me </h1>
+            <span className="contactPageTitle">
+            Please fill out the form below to discuss work prospects
+            </span>
+      </div>
     </section>
   );
 }

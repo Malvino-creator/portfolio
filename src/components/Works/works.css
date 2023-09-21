@@ -6,7 +6,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    padding: 0 1rem;
+    
 }
 .workTitle{
     margin: 1rem 0;
@@ -48,6 +48,7 @@
     height: 2rem;
     justify-content: center;
     align-items: center;
+    
 }
 @media screen and (max-width:585px) {
     .workImg{
