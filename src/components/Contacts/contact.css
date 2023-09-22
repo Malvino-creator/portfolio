@@ -23,6 +23,7 @@
 }
 .clientImages{
     margin: 1rem 0;
+    flex-wrap: wrap;
     display: flex;
 }
 .clientImage{
@@ -31,4 +32,44 @@
     margin: auto;
     padding: 0.28rem;
     min-width: 7rem;
+    
+}
+#clients{
+    padding: 2rem;
+}
+.contactDescription{
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+}
+.contactForm{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    max-width: 60rem;
+}
+.name, .email, .message{
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    color: white;
+    border: none;
+    background: rgb(40,40,40) ;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+.links{
+    display: flex;
+    flex-wrap: wrap;
+}
+.subnitBtn{
+    background: white;
+    border: none;
+    margin: 3rem;
+    padding: 0.75rem 3.5rem;
+    border-radius: 0.5rem;
 }
