@@ -4,8 +4,12 @@ import Walmart from "../../assets/walmart.png";
 import Adobe from "../../assets/adobe.png";
 import Microsoft from "../../assets/microsoft.png";
 import Facebook from "../../assets/facebook.png";
+import FacebookIcon from "../../assets/facebook-icon.png";
+import TwitterIcon from "../../assets/twitter.png";
+import InstagramIcon from "../../assets/instagram.png";
+import YoutubeIcon from "../../assets/youtube.png";
 
-function contact() {
+ function contact() {
   return (
     <section id="contactPage">
       <div id="clients">
@@ -22,16 +26,29 @@ function contact() {
         </div>
       </div>
       <div id="contact">
-        <h1 className="contactPageTitle">
-            Contact Me </h1>
-            <span className="contactPageTitle">
-            Please fill out the form below to discuss work prospects
-            </span>
-            <form className="contactForm">
-                <input type="text" placeholder="Your Name" className="name"/>
-                <input type="email" placeholder="Your Email" className="email"/>
-                <textarea className="message" name="message" rows={5} placeholder="Your Message"></textarea>
-            </form>
+        <h1 className="contactPageTitle">Contact Me </h1>
+        <span className="contactPageTitle">
+          Please fill out the form below to discuss work prospects
+        </span>
+        <form className="contactForm">
+          <input type="text" placeholder="Your Name" className="name" />
+          <input type="email" placeholder="Your Email" className="email" />
+          <textarea
+            className="message"
+            name="message"
+            rows={6}
+            placeholder="Your Message"
+          ></textarea>
+          <button type="submit" className="submitBtn" value="send">
+            Submit
+          </button>
+          <div className="socialLinks">
+            <img src={FacebookIcon} alt="facebook" className="facebook" />
+            <img src={TwitterIcon} alt="twitter" className="twitter" />
+            <img src={InstagramIcon} alt="instagram" className="instagram" />
+            <img src={YoutubeIcon} alt="youtube" className="youtube" />
+          </div>
+        </form>
       </div>
     </section>
   );
