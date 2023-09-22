@@ -9,7 +9,7 @@ import TwitterIcon from "../../assets/twitter.png";
 import InstagramIcon from "../../assets/instagram.png";
 import YoutubeIcon from "../../assets/youtube.png";
 
- function contact() {
+function contact() {
   return (
     <section id="contactPage">
       <div id="clients">
@@ -27,8 +27,9 @@ import YoutubeIcon from "../../assets/youtube.png";
       </div>
       <div id="contact">
         <h1 className="contactPageTitle">Contact Me </h1>
-        <span className="contactPageTitle">
-          Please fill out the form below to discuss work prospects
+        <span className="contactPageParag">
+          Please fill out the form below to discuss work prospects, critic or
+          consult.
         </span>
         <form className="contactForm">
           <input type="text" placeholder="Your Name" className="name" />
@@ -43,10 +44,10 @@ import YoutubeIcon from "../../assets/youtube.png";
             Submit
           </button>
           <div className="socialLinks">
-            <img src={FacebookIcon} alt="facebook" className="facebook" />
-            <img src={TwitterIcon} alt="twitter" className="twitter" />
-            <img src={InstagramIcon} alt="instagram" className="instagram" />
-            <img src={YoutubeIcon} alt="youtube" className="youtube" />
+            <img src={FacebookIcon} alt="facebook" className="link" />
+            <img src={TwitterIcon} alt="twitter" className="link" />
+            <img src={InstagramIcon} alt="instagram" className="link" />
+            <img src={YoutubeIcon} alt="youtube" className="link" />
           </div>
         </form>
       </div>

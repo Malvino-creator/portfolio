@@ -12,8 +12,11 @@
 }
 .contactPageTitle{
     font-size: 3rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     color: yellow;
+}
+.contactPageParag{
+    font-size: 1.3rem;
 }
 .clientDescription{
     font-size: 1.3rem;
@@ -23,7 +26,6 @@
 }
 .clientImages{
     margin: 1rem 0;
-    flex-wrap: wrap;
     display: flex;
 }
 .clientImage{
@@ -62,14 +64,20 @@
     border-radius: 0.5rem;
     padding: 0.5rem 1rem;
 }
-.links{
+.socialLinks{
     display: flex;
     flex-wrap: wrap;
 }
-.subnitBtn{
+.submitBtn{
     background: white;
     border: none;
     margin: 3rem;
     padding: 0.75rem 3.5rem;
     border-radius: 0.5rem;
+}
+.link{
+    object-fit: cover;
+    width: 3rem;
+    height: 3rem;
+    margin: 0 0.8rem;
 }
