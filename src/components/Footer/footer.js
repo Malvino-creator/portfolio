@@ -3,8 +3,9 @@ import "./footer.css"
 
 function footer() {
   return (
-    <footer>
-        Copyright &169; 2022 Malvin Opondo. All rights reserved.
+    <footer className='footer'>
+        Copyright  @2022 
+        Malvin Opondo. All rights reserved.
     </footer>
   )
 }

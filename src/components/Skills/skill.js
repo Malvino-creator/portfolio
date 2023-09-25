@@ -26,9 +26,7 @@ function skill() {
             <h2>UI/UX Design</h2>
             <p>
               Ensure the product's visual appeal and interface elements is
-              achieved, <br />
-              while laying focus on the overall user experience ensuring that
-              the product is user-friendly and meets expectations.
+              achieved, <br /> laying focus on overall user experience to ensure user-friendly products.
             </p>
           </div>
         </div>
@@ -37,7 +35,7 @@ function skill() {
           <div className="skillBarText">
             <h2> Website Development</h2>
             <p>
-              I play a crucial role in shaping the digital experiences users
+              I shape the digital experiences users
               have
               <br />
               when accessing information, services, and applications on the
@@ -50,7 +48,7 @@ function skill() {
           <div className="skillBarText">
             <h2>App Development</h2>
             <p>
-              Ensure realization in meeting the demands of modern consumers and
+              I meet the demands of modern consumers and
               businesses
               <br />
               for efficient and user-friendly mobile and software solutions.

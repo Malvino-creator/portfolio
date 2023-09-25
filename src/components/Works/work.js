@@ -10,13 +10,7 @@ function work() {
     <section id="works">
       <h2 className="workTitle">My Portfolio</h2>
       <p className="workParag">
-        {" "}
-        In today's fast-paced digital world, web developer's portfolio serves as
-        a testament to ones skills, <br />
-        creativity, and ability to craft engaging online experiences. As a React
-        developer,
-        <br /> my portfolio embodies not only the projects I've
-        <br />
+         As a React developer, my portfolio embodies not only the projects I've<br/>
         undertaken but also the passion and dedication I bring to the
         ever-evolving field of web development.
       </p>
