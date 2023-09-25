@@ -7,11 +7,12 @@
 }
 .bg{
     position: absolute;
-    top: 11rem;
+    top: 20rem;
     right: 0;
-    z-index: -2;
+    z-index: -3;
     object-fit: cover;
-    height: 100vh;
+    height: 60vh;
+    padding-left: 1rem;
 }
 .introContent{
     height: 100vh;

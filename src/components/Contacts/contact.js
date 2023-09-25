@@ -1,7 +1,7 @@
 import React from "react";
 import "./contact.css";
 import Walmart from "../../assets/walmart.png";
-import Adobe from "../../assets/adobe.png";
+import Adobe from "../../assets/Adobe.jpg";
 import Microsoft from "../../assets/microsoft.png";
 import Facebook from "../../assets/facebook.png";
 import FacebookIcon from "../../assets/facebook-icon.png";
