@@ -4,10 +4,7 @@ import Walmart from "../../assets/walmart.png";
 import Adobe from "../../assets/Adobe.jpg";
 import Microsoft from "../../assets/microsoft.png";
 import Facebook from "../../assets/facebook.png";
-import FacebookIcon from "../../assets/facebook-icon.png";
-import TwitterIcon from "../../assets/twitter.png";
-import InstagramIcon from "../../assets/instagram.png";
-import YoutubeIcon from "../../assets/youtube.png";
+
 
 function contact() {
   return (
@@ -43,12 +40,6 @@ function contact() {
           <button type="submit" className="submitBtn" value="send">
             Submit
           </button>
-          <div className="socialLinks">
-            <img src={FacebookIcon} alt="facebook" className="link" />
-            <img src={TwitterIcon} alt="twitter" className="link" />
-            <img src={InstagramIcon} alt="instagram" className="link" />
-            <img src={YoutubeIcon} alt="youtube" className="link" />
-          </div>
         </form>
       </div>
     </section>

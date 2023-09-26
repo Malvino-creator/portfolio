@@ -67,6 +67,7 @@
 .socialLinks{
     display: flex;
     flex-wrap: wrap;
+    
 }
 .submitBtn{
     background: white;
