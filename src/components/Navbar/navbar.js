@@ -12,7 +12,7 @@ function navbar() {
         <Link className="desktopMenuListItem">Home</Link>
         <Link className="desktopMenuListItem">About</Link>
         <Link className="desktopMenuListItem">Portfolio</Link>
-        <Link className="desktopMenuListItem">Clients</Link>
+        <Link className="desktopMenuListItem">CV</Link>
       </div>
       <button className="desktopMenuBtn">
         <img src={Contact} alt="contact" className="desktopMenuImg" />

@@ -10,6 +10,11 @@
     justify-content: center;
     padding-bottom: 8rem;
 }
+.form-container{
+    background-color: beige;
+    border-radius: 2rem;
+    box-shadow: 1px 7px 17px 7px grey;
+}
 .contactPageTitle{
     font-size: 3rem;
     margin-bottom: 1rem;
@@ -24,18 +29,6 @@
     padding-bottom: 3%;
     text-wrap: wrap;
 }
-.clientImages{
-    margin: 1rem 0;
-    display: flex;
-}
-.clientImage{
-    object-fit: cover;
-    width: 30%;
-    margin: auto;
-    padding: 1.28rem;
-    min-width: 7rem;
-    
-}
 #clients{
     padding: 5rem;
 }
@@ -46,6 +39,7 @@
 }
 .contactForm{
     margin: 1rem;
+    padding: 1.8rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
