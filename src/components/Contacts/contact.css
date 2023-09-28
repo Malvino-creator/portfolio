@@ -9,19 +9,26 @@
     align-items: center;
     justify-content: center;
     padding-bottom: 8rem;
+    padding-top: 8rem
 }
 .form-container{
     background-color: beige;
     border-radius: 2rem;
-    box-shadow: 3px 7px 7px 3px grey;
+    padding-top: -2rem;
+    
 }
 .contactPageTitle{
     font-size: 3rem;
     margin-bottom: 1rem;
-    color: yellow;
+    color: black;
+    text-shadow: 1px 1px 1px;
+    font-style: italic;
+    padding-top: 4rem;
 }
 .contactPageParag{
     font-size: 1.3rem;
+    color: black;
+    padding-top: -2rem;
 }
 .clientDescription{
     font-size: 1.3rem;
@@ -64,11 +71,13 @@
     
 }
 .submitBtn{
-    background: white;
+    background: yellow;
     border: none;
     margin: 2rem;
-    padding: 0.8rem 3rem;
+    padding: 0.5rem 2rem;
     border-radius: 1rem;
+    font-size: 1em;
+    justify-content: center;
 }
 .link{
     object-fit: cover;

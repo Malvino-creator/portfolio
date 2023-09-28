@@ -8,6 +8,7 @@ function skill() {
   return (
     <section id="skills">
       <span className="skillTitle"> About Me </span>
+      <div className="skill-text"> 
       <span className="skillDescription">
         I am a skilled and passionate web designer with experience in
         <br />
@@ -19,14 +20,15 @@ function skill() {
         as well as Frontend and Backend frameworks such as React and Ruby on
         Rails.
       </span>
+      </div>
       <div className="skillBars">
         <div className="skillBar">
           <img src={UIDesign} alt="uidesign" className="skillBarImg"></img>
           <div className="skillBarText">
             <h2>UI/UX Design</h2>
             <p>
-              Ensure the product's visual appeal and interface elements is
-              achieved, <br /> laying focus on overall user experience to ensure user-friendly products.
+              Ensure visual appeal and interface
+           laying focus on overall user experience to ensure user-friendly products.
             </p>
           </div>
         </div>
@@ -35,10 +37,10 @@ function skill() {
           <div className="skillBarText">
             <h2> Website Development</h2>
             <p>
-              I shape the digital experiences users
+              Shape the digital experiences users
               have
               <br />
-              when accessing information, services, and applications on the
+              when accessing information or services on the
               internet.
             </p>
           </div>
@@ -48,10 +50,8 @@ function skill() {
           <div className="skillBarText">
             <h2>App Development</h2>
             <p>
-              I meet the demands of modern consumers and
-              businesses
-              <br />
-              for efficient and user-friendly mobile and software solutions.
+              Meeting demands of modern consumers and
+              businesses through efficient and user-friendly mobile and software solutions.
             </p>
           </div>
         </div>

@@ -1,7 +1,7 @@
 #skills{
     overflow: hidden;
-    width: 100vw;
-    max-width: 65rem;
+    width: 90vw;
+    max-width: 70rem;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -9,26 +9,37 @@
     text-align: center;
     justify-content: center;
     margin: 0 auto;
-    padding-top: 5%;
+    padding-top: 3%;
+    background: white;
+    border-radius: 3%;
+}
+.skill-text{
+    color: black;
+    justify-content: center;
 }
 .skillTitle{
     font-size: 3rem;
-    font-weight: 700;
-    padding-top: 3rem;
+    font-weight: 900;
+    padding-top: -6rem;
     margin-bottom: 2rem;
     color: yellow;
+    text-shadow: 1px 1px black;
+    
 }
 .skillDescription{
-    font-weight: 400;
+    font-weight: black;
+    font-size: large;
     max-width: 60rem;
-    padding: 0 3rem;
-    font-size: 1.3rem;
-    word-spacing: 0.1rem;
+    padding: 0 1rem;
+    font-size: 1.2rem;
+    padding-top: 1.7rem;
+    padding-bottom: 3rem;
+    
 
 }
 .skillBars{
-    margin: 1.3rem;
-    max-width: 80%;
+    margin: 1.2rem;
+    max-width: 73%;
     text-align: left;
     width: 100vw;
     border-radius: 0.3rem;
@@ -51,8 +62,10 @@ padding-bottom: 2rem;
     padding-top: 1rem;
 }
 .skillBar h2{
-    color: yellow;
+    color: whitesmoke;
     padding-bottom: 0.6rem;
+    justify-content: center;
+    text-shadow: 1px 1px yellow;
 }
 .skillBarText>p{
     font-weight: 300;

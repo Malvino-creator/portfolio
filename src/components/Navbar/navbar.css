@@ -19,19 +19,18 @@
     height: 10rem;
     object-fit: cover;
 }
-
 .desktopMenuListItem{
     margin: 1rem;
     cursor:pointer;
-    font-size: large;
+    font-size: 100%;
     font-weight: bold;
+    color: white;
+    text-decoration: azure;
 }
 .desktopMenuListItem:hover{
-    color: yellow;
     padding-bottom: 0.5rem;
-    border-bottom: 1px solid yellow;
+    border-bottom: 1.7px solid white;
 }
-
 .desktopMenuImg{
     object-fit: cover;
     height: 1rem;

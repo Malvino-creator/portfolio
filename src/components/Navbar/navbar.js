@@ -8,7 +8,7 @@ function navbar() {
   return (
     <nav className="navbar">
       <img src={logo} alt="logo" className="logo" />
-      <div className="desktopMenu">
+      <div className="desktopMenuList">
         <Link className="desktopMenuListItem">Home</Link>
         <Link className="desktopMenuListItem">About</Link>
         <Link className="desktopMenuListItem">Portfolio</Link>
