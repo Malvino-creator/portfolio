@@ -1,7 +1,7 @@
 import React from "react";
 import "./intro.css";
-// import bg from "../../assets/image.png";
-import {Link} from "react-scroll";
+import bg from "../../assets/bg.svg";
+
 
 function intro() {
   return (
@@ -13,7 +13,8 @@ function intro() {
         </span>
         <p className="introParag"> I am a skilled web designer with experience in creating<br/>
         visually appealling and user friendly websites. </p>
-        <Link><button type="button" className="btn"> Portfolio </button></Link>
+        <img src={bg} alt ="bg" className="bg"/>
+        <button type="button" className="btn"> Portfolio </button>
       </div>
       
     </section>

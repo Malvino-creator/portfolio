@@ -20,7 +20,6 @@ function work() {
         <img src={portfolio3} alt="portfolio3" className="workImg" />
         <img src={portfolio4} alt="portfolio4" className="workImg" />
       </div>
-      <button className="worksBtn"> See more </button>
     </section>
   );
 }
